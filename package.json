@@ -1,0 +1,17 @@
+{
+  "name": "prod-main",
+  "version": "1.0.0",
+  "description": "<p> Languages Used: HTML, CSS, & JavaScript </p> <h2>Preview:</h2> <p>This is preview of the project. You can visit live preview on <a href=\"https://awwwwnurag.github.io/PRODIGY_WD_01/\" target=\"_blank\"> Here. </a></p> ![preview img](/preview.png)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
